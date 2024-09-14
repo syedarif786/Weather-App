@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.app{
+    background-image: url('./assets/cold.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4s ease-in;
+}
+.warm{
+    background-image: url('./assets/warm.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4s ease-in;
+}
+
+
+
+main{
+min-height: 100vh;
+padding: 25px;
+}
+
+.search-box{
+    width:100% ;
+    margin: 0 0 75px;
+}
+.search-box .search-bar{
+   display: block;
+   width: 100%;
+   padding: 15px;
+   /* appearance: none;
+   background: none;
+   outline: none; */
+   appearance: none;
+   background: none;
+   outline: none;
+   background-color: rgba(255,255,255,0.5);
+   border-radius: 0 0 16px 16px;
+   margin-top: -25px;
+   box-shadow: 0 5px rgba(0,0,0,0.2);
+   color: #313131;
+    font-size: 20px;
+    transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus{
+    background-color: rgba(255,255,255,0.75);
+}
+
+.location-box .location{
+    color: #fff;
+    
+}
+.weather-report{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.location{
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+.date{
+    font-style: italic;
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px rgba(50,50,70,0.5);
+}
+.temp{
+    font-size: 5rem;
+    font-weight: bold;
+    background-color: #fffffff0;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.4);
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: rgb(232, 206, 11);
+    text-shadow: 2px 2px rgba(107, 99, 99, 0.8);
+}
+.climate{
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+
+
